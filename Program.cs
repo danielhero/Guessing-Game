@@ -38,7 +38,6 @@ namespace GuessingGame
             else
             {
                 Console.WriteLine("Not an acceptable choice");
-
             }
 
             while (guessesGiven < difficultySetting)
@@ -51,7 +50,6 @@ namespace GuessingGame
                 if (userGuessInt < secretNumber)
                 {
                     Console.WriteLine("Guess was too low!");
-
                 }
                 else if (userGuessInt > secretNumber)
                 {
